@@ -15,7 +15,7 @@ This file contains a large PHP array that defines global theme settings. The fun
 * `required_pages` - Defines the default pages to be created when the theme is active (or activated?) (JSON formatted)
  * Each page has its `name`, `slug` and `layout` defined.
  * The `layout` refers to a file (minus the `.php` extension) within the `layouts/` directory.
-* `responsive_settings - Seems similar to the `responsive` array key, but without escaping? Unknown purpose. (JSON formatted)
+* `responsive_settings` - Seems similar to the `responsive` array key, but without escaping? Unknown purpose. (JSON formatted)
 * `post_image_variants` - Perhaps related to how WordPress stores details in its image library about sizes, cropping etc. (JSON formatted)
 * `button_presets` - Defines default buttons and their styling for use in the theme (JSON formatted)
 * `responsive` - Defines breakpoints and CSS for those breakpoints (JSON formatted)
