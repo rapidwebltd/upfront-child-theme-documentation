@@ -1,6 +1,6 @@
 # Upfront Child Theme Documentation
 
-This documentations attempts to explain how WPMU Upfront child themes (such as Spirit) are build up and how they function. This is currently derived from our own experience of using the Upfront editor and analysis of the code behind the child themes.
+This documentation attempts to explain how [WPMU Upfront](https://premium.wpmudev.org/blog/introducing-upfront/) child themes (such as [Spirit](https://premium.wpmudev.org/project/spirit/)) are build up and how they function. This is currently derived from our own experience of using the Upfront editor and analysis of the code behind the child themes.
 
 Hopefully this will aid those wishing to create their own Upfront child themes, or just those wishing to make customisations to existing child themes.
 
