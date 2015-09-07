@@ -4,4 +4,4 @@ This documentations attempts to explain how WPMU Upfront child themes (such as S
 
 So far, we have:
 
-* (File Structure)[file-structure.md] - A description of the file structure and the main files/directories that are contained within a typical Upfront child theme.
+* [File Structure](file-structure.md) - A description of the file structure and the main files/directories that are contained within a typical Upfront child theme.
