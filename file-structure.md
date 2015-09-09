@@ -1,6 +1,6 @@
 # File Structure
 
-## screeenshot.png
+## screenshot.png
 A preview image of the theme, same functionality as standard WordPress themes. [Read More](https://codex.wordpress.org/Theme_Development#Screenshot).
 
 ## settings.php
