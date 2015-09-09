@@ -30,8 +30,10 @@ Similar to global-regions, these are portions of layouts to be used frequently b
 
 ### ui
 Empty folder? (Investigating...)
-***
-## functions.php
+
+## Key files
+
+### functions.php
 
 This file behaves similarly to `functions.php` for WordPress themes.
 
@@ -41,7 +43,7 @@ A class is defined in this function which represents the Upfront child theme and
 2. The return value of the public `get_prefix` method.
 3. The call to the `ClassName::serve()` method at the bottom of the file.
 
-## page_tpl-*.php files
+### page_tpl-*.php files
 
 These files appear to build up the rendered content for a specific page, with a specific template defined.
 
@@ -67,10 +69,10 @@ get_footer();
 
 The important point to note here is that `specificity` identifies the template file from the `layouts/` directory (minus the `.php`).
 
-## screenshot.png
+### screenshot.png
 A preview image of the theme, same functionality as standard WordPress themes. [Read More](https://codex.wordpress.org/Theme_Development#Screenshot).
 
-## settings.php
+### settings.php
 
 This file contains a large PHP array that defines global theme settings. The function of each array key is defined below.
 
@@ -93,9 +95,5 @@ This file contains a large PHP array that defines global theme settings. The fun
 * `icon_fonts` - Defines icon/symbolic font(s) used in this theme, similar to FontAwesome (JSON formatted)
 * `tab_presets` - Define styling of tabs related elements in this theme (JSON formatted)
 
-## style.css
+### style.css
 A stylesheet that contains the information about the theme in the comments, such as theme name, author, URLs, etc.
-
-
-
-
