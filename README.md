@@ -4,4 +4,6 @@ This documentation attempts to explain how [WPMU DEV](https://premium.wpmudev.or
 
 Hopefully this will aid those wishing to create their own Upfront child themes, or just those wishing to make customisations to existing child themes.
 
+## Table of Contents
+
 * [File Structure](file-structure.md) - A description of the file structure and the main files/directories that are contained within a typical Upfront child theme.
