@@ -1,5 +1,8 @@
 # File Structure
 
+## screeenshot.png
+A preview image of the theme, same functionality as standard WordPress themes. [Read More](https://codex.wordpress.org/Theme_Development#Screenshot).
+
 ## settings.php
 
 This file contains a large PHP array that defines global theme settings. The function of each array key is defined below.
@@ -22,6 +25,9 @@ This file contains a large PHP array that defines global theme settings. The fun
 * `accordian_presets` - Defines styling of the Upfront accordian element for this theme (JSON formatted)
 * `icon_fonts` - Defines icon/symbolic font(s) used in this theme, similar to FontAwesome (JSON formatted)
 * `tab_presets` - Define styling of tabs related elements in this theme (JSON formatted)
+
+## style.css
+A stylesheet that contains the information about the theme in the comments, such as theme name, author, urls, etc.
 
 ## functions.php
 
@@ -58,3 +64,5 @@ get_footer();
 ```
 
 The important point to note here is that `specificity` identicates the template file from the `layouts/` directory (minus the `.php`).
+
+
